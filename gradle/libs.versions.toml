@@ -1,0 +1,10 @@
+[libraries]
+### Libraries provided by platforms ###
+kotlinReflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
+springBootStarter = { module = "org.springframework.boot:spring-boot-starter" }
+
+[plugins]
+### Plugins provided by build sources ###
+rootProject = { id = "com.kotlinserversquad.gradle.root-project" }
+springBootApplication = { id = "com.kotlinserversquad.gradle.spring-boot-application" }
+springBootProject = { id = "com.kotlinserversquad.gradle.spring-boot-project" }

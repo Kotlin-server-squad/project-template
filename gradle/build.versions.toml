@@ -1,0 +1,23 @@
+[versions]
+dependencyCheck = "12.1.9"
+detekt = "2.0.0-alpha.1"
+dokka = "2.1.0"
+gitProperties = "2.5.4"
+jooq = "3.20.10"
+kotlin = "2.3.0"
+kotlinter = "5.3.0"
+sonarqube = "7.2.2.6593"
+springBoot = "4.0.1"
+
+[libraries]
+dependencyCheckGradlePlugin = { module = "org.owasp.dependencycheck:org.owasp.dependencycheck.gradle.plugin", version.ref = "dependencyCheck" }
+detektGradlePlugin = { module = "dev.detekt:dev.detekt.gradle.plugin", version.ref = "detekt" }
+dokkaGradlePlugin = { module = "org.jetbrains.dokka:org.jetbrains.dokka.gradle.plugin", version.ref = "dokka" }
+gitPropertiesGradlePlugin = { module = "com.gorylenko.gradle-git-properties:com.gorylenko.gradle-git-properties.gradle.plugin", version.ref = "gitProperties" }
+jooqMetaExtensions = { module = "org.jooq:jooq-meta-extensions", version.ref = "jooq" }
+jooqCodegenGradlePlugin = { module = "org.jooq.jooq-codegen-gradle:org.jooq.jooq-codegen-gradle.gradle.plugin", version.ref = "jooq" }
+kotlinJvmGradlePlugin = { module = "org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin", version.ref = "kotlin" }
+kotlinSpringGradlePlugin = { module = "org.jetbrains.kotlin.plugin.spring:org.jetbrains.kotlin.plugin.spring.gradle.plugin", version.ref = "kotlin" }
+kotlinterGradlePlugin = { module = "org.jmailen.kotlinter:org.jmailen.kotlinter.gradle.plugin", version.ref = "kotlinter" }
+sonarqubeGradlePlugin = { module = "org.sonarqube:org.sonarqube.gradle.plugin", version.ref = "sonarqube" }
+springBootGradlePlugin = { module = "org.springframework.boot:org.springframework.boot.gradle.plugin", version.ref = "springBoot" }
