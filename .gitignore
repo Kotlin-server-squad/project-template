@@ -1,0 +1,15 @@
+### IntelliJ IDEA ###
+.idea/
+.run/
+
+### Gradle ###
+.gradle/
+build/
+
+### Kotlin ###
+.kotlin/
+
+### Project ###
+application-local.properties
+application-local.yaml
+application-local.yml
